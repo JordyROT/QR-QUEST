@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>QR 07 - QR Quest</title>
+
+<link rel="stylesheet"
+href="../css/estilos.css">
+
+<link rel="stylesheet"
+href="../css/desafio.css">
+
+</head>
+
+<body>
+
+<main class="contenedor">
+
+<section class="panel desafio">
+
+<span class="etiqueta">
+DESAFÍO QR 07
+</span>
+
+<h1>
+Has encontrado el QR 07
+</h1>
+
+<div class="pista">
+
+<strong>Pista:</strong>
+
+<p>
+Aquí la actividad física reemplaza por un momento
+a los libros.
+</p>
+
+</div>
+
+<h2>
+¿Qué estructura de datos almacena elementos
+en posiciones numeradas?
+</h2>
+
+<div class="opciones">
+
+<button class="opcion" onclick="responder(0)">
+Arreglo
+</button>
+
+<button class="opcion" onclick="responder(1)">
+Socket
+</button>
+
+<button class="opcion" onclick="responder(2)">
+Clase
+</button>
+
+<button class="opcion" onclick="responder(3)">
+Puerto
+</button>
+
+</div>
+
+<div id="resultado"></div>
+
+<div id="cooldown"></div>
+
+<a class="boton secundario"
+href="../rompecabezas.html">
+Ver rompecabezas
+</a>
+
+</section>
+
+</main>
+
+<script>
+
+const DESAFIO = {
+
+    id: "07",
+
+    correcta: 0,
+
+    pieza: 1
+
+};
+
+</script>
+
+<script src="../js/desafio.js"></script>
+
+</body>
+</html>

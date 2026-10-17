@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rompecabezas</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/rompecabezas.css">
+</head>
+
+<body>
+
+<main class="contenedor">
+
+    <section class="panel">
+
+        <h1>Mi rompecabezas</h1>
+
+        <p>
+            Consigue las 6 piezas únicas para desbloquear
+            la ubicación del premio.
+        </p>
+
+        <div id="contador" class="contador"></div>
+
+        <div id="puzzle" class="puzzle"></div>
+
+        <div id="premioBloqueado" class="mensaje">
+            Completa las 6 piezas para descubrir el lugar del premio.
+        </div>
+
+        <a
+            id="botonPremio"
+            class="boton oculto"
+            href="premio.html">
+            Descubrir premio
+        </a>
+
+        <div class="acciones">
+
+            <a
+                class="boton secundario"
+                href="index.html">
+                Volver
+            </a>
+
+            <button
+                class="boton peligro"
+                onclick="reiniciarJuego()">
+                Reiniciar juego
+            </button>
+
+        </div>
+
+    </section>
+
+</main>
+
+<script src="js/rompecabezas.js"></script>
+
+</body>
+</html>

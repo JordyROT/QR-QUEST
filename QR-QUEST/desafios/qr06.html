@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>QR 06 - QR Quest</title>
+
+<link rel="stylesheet"
+href="../css/estilos.css">
+
+<link rel="stylesheet"
+href="../css/desafio.css">
+
+</head>
+
+<body>
+
+<main class="contenedor">
+
+<section class="panel desafio">
+
+<span class="etiqueta">
+DESAFÍO QR 06
+</span>
+
+<h1>
+Has encontrado el QR 06
+</h1>
+
+<div class="pista">
+
+<strong>Pista:</strong>
+
+<p>
+Busca donde los circuitos y componentes
+convierten ideas en prototipos.
+</p>
+
+</div>
+
+<h2>
+¿Qué componente puede almacenar carga eléctrica?
+</h2>
+
+<div class="opciones">
+
+<button class="opcion" onclick="responder(0)">
+Resistencia
+</button>
+
+<button class="opcion" onclick="responder(1)">
+Capacitor
+</button>
+
+<button class="opcion" onclick="responder(2)">
+Diodo
+</button>
+
+<button class="opcion" onclick="responder(3)">
+Transistor
+</button>
+
+</div>
+
+<div id="resultado"></div>
+
+<div id="cooldown"></div>
+
+<a class="boton secundario"
+href="../rompecabezas.html">
+Ver rompecabezas
+</a>
+
+</section>
+
+</main>
+
+<script>
+
+const DESAFIO = {
+
+    id: "06",
+
+    correcta: 1,
+
+    pieza: 6
+
+};
+
+</script>
+
+<script src="../js/desafio.js"></script>
+
+</body>
+</html>

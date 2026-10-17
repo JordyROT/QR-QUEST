@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>QR 03 - QR Quest</title>
+
+<link rel="stylesheet"
+href="../css/estilos.css">
+
+<link rel="stylesheet"
+href="../css/desafio.css">
+
+</head>
+
+<body>
+
+<main class="contenedor">
+
+<section class="panel desafio">
+
+<span class="etiqueta">
+DESAFÍO QR 03
+</span>
+
+<h1>
+Has encontrado el QR 03
+</h1>
+
+<div class="pista">
+
+<strong>Pista:</strong>
+
+<p>
+Aquí muchas pantallas permanecen encendidas
+mientras se aprende.
+</p>
+
+</div>
+
+<h2>
+¿Qué significa CPU?
+</h2>
+
+<div class="opciones">
+
+<button class="opcion" onclick="responder(0)">
+Unidad Central de Procesamiento
+</button>
+
+<button class="opcion" onclick="responder(1)">
+Control Principal de Usuario
+</button>
+
+<button class="opcion" onclick="responder(2)">
+Código Principal Universal
+</button>
+
+<button class="opcion" onclick="responder(3)">
+Unidad de Programa Central
+</button>
+
+</div>
+
+<div id="resultado"></div>
+
+<div id="cooldown"></div>
+
+<a class="boton secundario"
+href="../rompecabezas.html">
+Ver rompecabezas
+</a>
+
+</section>
+
+</main>
+
+<script>
+
+const DESAFIO = {
+
+    id: "03",
+
+    correcta: 0,
+
+    pieza: 3
+
+};
+
+</script>
+
+<script src="../js/desafio.js"></script>
+
+</body>
+</html>

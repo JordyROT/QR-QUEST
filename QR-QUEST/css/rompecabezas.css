@@ -1,0 +1,104 @@
+.contador {
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    margin: 20px 0;
+}
+
+
+.puzzle {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 15px;
+
+    margin: 25px 0;
+}
+
+
+.pieza {
+
+    min-height: 170px;
+
+    border-radius: 12px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.pieza.conseguida {
+
+    background: #e2e8f0;
+
+    border:
+        2px solid #475569;
+}
+
+
+.pieza.faltante {
+
+    background: #f1f5f9;
+
+    border:
+        2px dashed #94a3b8;
+
+    font-size: 40px;
+}
+
+
+.pieza-numero {
+
+    width: 100px;
+
+    height: 100px;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #cbd5e1;
+
+    font-size: 35px;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+
+.pieza span {
+
+    font-weight: bold;
+}
+
+
+.acciones {
+
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+
+    .puzzle {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}

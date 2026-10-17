@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>QR 12 - QR Quest</title>
+
+<link rel="stylesheet"
+href="../css/estilos.css">
+
+<link rel="stylesheet"
+href="../css/desafio.css">
+
+</head>
+
+<body>
+
+<main class="contenedor">
+
+<section class="panel desafio">
+
+<span class="etiqueta">
+DESAFÍO QR 12
+</span>
+
+<h1>
+Has encontrado el QR 12
+</h1>
+
+<div class="pista">
+
+<strong>Pista:</strong>
+
+<p>
+Es un lugar donde varias personas pueden
+reunirse antes de continuar.
+</p>
+
+</div>
+
+<h2>
+¿Qué método HTTP se utiliza normalmente
+para enviar datos de un formulario?
+</h2>
+
+<div class="opciones">
+
+<button class="opcion" onclick="responder(0)">
+GET
+</button>
+
+<button class="opcion" onclick="responder(1)">
+POST
+</button>
+
+<button class="opcion" onclick="responder(2)">
+LINK
+</button>
+
+<button class="opcion" onclick="responder(3)">
+SEND
+</button>
+
+</div>
+
+<div id="resultado"></div>
+
+<div id="cooldown"></div>
+
+<a class="boton secundario"
+href="../rompecabezas.html">
+Ver rompecabezas
+</a>
+
+</section>
+
+</main>
+
+<script>
+
+const DESAFIO = {
+
+    id: "12",
+
+    correcta: 1,
+
+    pieza: 6
+
+};
+
+</script>
+
+<script src="../js/desafio.js"></script>
+
+</body>
+</html>

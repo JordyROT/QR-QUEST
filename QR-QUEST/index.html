@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Quest - Búsqueda universitaria</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <main class="contenedor">
+        <section class="hero">
+            <h1>QR QUEST</h1>
+            <p class="subtitulo">La búsqueda del premio</p>
+
+            <div id="inicio">
+                <p>12 QR escondidos. 6 piezas. Un premio físico.</p>
+                <button class="boton" onclick="iniciarJuego()">
+                    Comenzar búsqueda
+                </button>
+            </div>
+
+            <div id="progreso" hidden>
+                <h2 id="tituloPista"></h2>
+                <p id="pistaActual"></p>
+                <p id="estadoJuego"></p>
+            </div>
+
+            <a class="boton secundario" href="rompecabezas.html">
+                Ver rompecabezas
+            </a>
+        </section>
+
+        <section class="reglas">
+            <h2>Reglas</h2>
+            <ol>
+                <li>Resuelve la adivinanza para encontrar el QR.</li>
+                <li>Escanea el QR físico con tu celular.</li>
+                <li>Responde correctamente para obtener una pieza.</li>
+                <li>Si fallas, espera 30 segundos para reintentar ese QR.</li>
+                <li>Encuentra los 12 QR y reúne las 6 piezas diferentes.</li>
+                <li>Escanea el QR final del rompecabezas para descubrir dónde está el premio.</li>
+            </ol>
+        </section>
+    </main>
+
+    <script src="js/juego.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background: #f2f4f7;
+
+    color: #20252b;
+}
+
+
+.contenedor {
+
+    width: min(900px, 92%);
+
+    margin: 40px auto;
+}
+
+
+.hero,
+.panel,
+.reglas {
+
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 35px;
+
+    box-shadow:
+        0 8px 25px
+        rgba(0, 0, 0, .08);
+
+    margin-bottom: 25px;
+}
+
+
+.hero {
+
+    text-align: center;
+}
+
+
+.hero h1 {
+
+    font-size: 48px;
+
+    margin:
+        0 0 10px;
+}
+
+
+.subtitulo {
+
+    font-size: 24px;
+
+    margin-top: 0;
+}
+
+
+.boton {
+
+    display: inline-block;
+
+    border: 0;
+
+    border-radius: 10px;
+
+    padding: 13px 20px;
+
+    margin: 8px 5px;
+
+    background: #1f2937;
+
+    color: white;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+
+.boton.secundario {
+
+    background: #64748b;
+}
+
+
+.boton.peligro {
+
+    background: #b91c1c;
+}
+
+
+.oculto {
+
+    display: none;
+}
+
+
+.mensaje,
+.correcto,
+.incorrecto,
+.ubicacion-final {
+
+    padding: 18px;
+
+    border-radius: 10px;
+
+    margin: 18px 0;
+}
+
+
+.mensaje {
+
+    background: #eef2f7;
+}
+
+
+.correcto {
+
+    background: #dcfce7;
+}
+
+
+.incorrecto {
+
+    background: #fee2e2;
+}
+
+
+.ubicacion-final {
+
+    background: #fff7ed;
+
+    border:
+        2px solid #fb923c;
+}
+
+
+@media (max-width: 600px) {
+
+    .hero h1 {
+
+        font-size: 36px;
+    }
+
+
+    .hero,
+    .panel,
+    .reglas {
+
+        padding: 22px;
+    }
+
+}

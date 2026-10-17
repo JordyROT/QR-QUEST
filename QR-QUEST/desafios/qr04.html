@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>QR 04 - QR Quest</title>
+
+<link rel="stylesheet"
+href="../css/estilos.css">
+
+<link rel="stylesheet"
+href="../css/desafio.css">
+
+</head>
+
+<body>
+
+<main class="contenedor">
+
+<section class="panel desafio">
+
+<span class="etiqueta">
+DESAFÍO QR 04
+</span>
+
+<h1>
+Has encontrado el QR 04
+</h1>
+
+<div class="pista">
+
+<strong>Pista:</strong>
+
+<p>
+Busca el lugar donde una voz puede llegar
+a muchas personas al mismo tiempo.
+</p>
+
+</div>
+
+<h2>
+¿Qué protocolo se utiliza principalmente
+para navegar por páginas web?
+</h2>
+
+<div class="opciones">
+
+<button class="opcion" onclick="responder(0)">
+FTP
+</button>
+
+<button class="opcion" onclick="responder(1)">
+HTTP
+</button>
+
+<button class="opcion" onclick="responder(2)">
+SMTP
+</button>
+
+<button class="opcion" onclick="responder(3)">
+SSH
+</button>
+
+</div>
+
+<div id="resultado"></div>
+
+<div id="cooldown"></div>
+
+<a class="boton secundario"
+href="../rompecabezas.html">
+Ver rompecabezas
+</a>
+
+</section>
+
+</main>
+
+<script>
+
+const DESAFIO = {
+
+    id: "04",
+
+    correcta: 1,
+
+    pieza: 4
+
+};
+
+</script>
+
+<script src="../js/desafio.js"></script>
+
+</body>
+</html>

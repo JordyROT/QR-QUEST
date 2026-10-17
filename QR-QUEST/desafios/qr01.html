@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>QR 01 - QR Quest</title>
+
+    <link
+        rel="stylesheet"
+        href="../css/estilos.css">
+
+    <link
+        rel="stylesheet"
+        href="../css/desafio.css">
+
+</head>
+
+<body>
+
+<main class="contenedor">
+
+    <section class="panel desafio">
+
+        <span class="etiqueta">
+            DESAFÍO QR 01
+        </span>
+
+        <h1>
+            Has encontrado el QR 01
+        </h1>
+
+        <div class="pista">
+
+            <strong>Pista:</strong>
+
+            <p>
+                Entre libros y silencio,
+                busca donde las historias esperan.
+            </p>
+
+        </div>
+
+        <h2>
+            ¿Cuál es el lenguaje utilizado
+            para estructurar una página web?
+        </h2>
+
+        <div class="opciones">
+
+            <button
+                class="opcion"
+                onclick="responder(0)">
+                CSS
+            </button>
+
+            <button
+                class="opcion"
+                onclick="responder(1)">
+                HTML
+            </button>
+
+            <button
+                class="opcion"
+                onclick="responder(2)">
+                PHP
+            </button>
+
+            <button
+                class="opcion"
+                onclick="responder(3)">
+                SQL
+            </button>
+
+        </div>
+
+        <div id="resultado"></div>
+
+        <div id="cooldown"></div>
+
+        <a
+            class="boton secundario"
+            href="../rompecabezas.html">
+            Ver rompecabezas
+        </a>
+
+    </section>
+
+</main>
+
+<script>
+
+const DESAFIO = {
+
+    id: "01",
+
+    correcta: 1,
+
+    pieza: 1
+
+};
+
+</script>
+
+<script src="../js/desafio.js"></script>
+
+</body>
+</html>

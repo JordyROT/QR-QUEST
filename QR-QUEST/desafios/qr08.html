@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>QR 08 - QR Quest</title>
+
+<link rel="stylesheet"
+href="../css/estilos.css">
+
+<link rel="stylesheet"
+href="../css/desafio.css">
+
+</head>
+
+<body>
+
+<main class="contenedor">
+
+<section class="panel desafio">
+
+<span class="etiqueta">
+DESAFÍO QR 08
+</span>
+
+<h1>
+Has encontrado el QR 08
+</h1>
+
+<div class="pista">
+
+<strong>Pista:</strong>
+
+<p>
+Aquí los documentos, trámites y gestiones
+son protagonistas.
+</p>
+
+</div>
+
+<h2>
+¿Qué comando SQL se utiliza para consultar datos?
+</h2>
+
+<div class="opciones">
+
+<button class="opcion" onclick="responder(0)">
+INSERT
+</button>
+
+<button class="opcion" onclick="responder(1)">
+UPDATE
+</button>
+
+<button class="opcion" onclick="responder(2)">
+SELECT
+</button>
+
+<button class="opcion" onclick="responder(3)">
+DELETE
+</button>
+
+</div>
+
+<div id="resultado"></div>
+
+<div id="cooldown"></div>
+
+<a class="boton secundario"
+href="../rompecabezas.html">
+Ver rompecabezas
+</a>
+
+</section>
+
+</main>
+
+<script>
+
+const DESAFIO = {
+
+    id: "08",
+
+    correcta: 2,
+
+    pieza: 2
+
+};
+
+</script>
+
+<script src="../js/desafio.js"></script>
+
+</body>
+</html>
